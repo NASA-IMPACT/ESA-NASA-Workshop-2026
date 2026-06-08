@@ -47,7 +47,6 @@ This hands-on session introduces EO embedding workflows, downstream adaptation, 
 ## Materials
 
 - `requirements.txt`: Package list for the workshop environment.
-- `00_setup_check.ipynb`: Environment and data checks.
 
 **Hands-on material**:
 - `01_TerraTorch_Embeddings/`: Notebook and sample YAML file for embedding generation.
@@ -56,26 +55,6 @@ This hands-on session introduces EO embedding workflows, downstream adaptation, 
 - `04_TerraTorch_Iterate/`: TerraTorch Iterate workflows for scalable experimentation.
 
 ---
-
-## Set-Up
-
-Before starting the hands-on notebooks, run:
-
-```text
-00_setup_check.ipynb
-```
-
-This checks the Python environment, key package imports, GPU availability, and
-whether a shared data path is available.
-
-### Fallback
-
-If no pre-configured image/kernel is available, participants need to install
-the requirements manually:
-
-```bash
-pip install -r "Day 4/Track 2/TerraTorch-Workflows/requirements.txt"
-```
 
 ### Workshop data — `03_Forest_Disturbance_Monitoring`
 
